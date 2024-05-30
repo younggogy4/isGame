@@ -18,8 +18,8 @@ public class RoomData
 
     public void Init()
     {
-        if (Levels[0] == 1) CountRooms = 2;
-        if (Levels[0] == 2) CountRooms = 4;
-        if (Levels[0] == 3) CountRooms = 6;
+        if (Levels[0] == 1) CountRooms = 7;
+        if (Levels[0] == 2) CountRooms = 11;
+        if (Levels[0] == 3) CountRooms = 14;
     }
 }
