@@ -14,7 +14,7 @@ public class HeroUpdate
     public int Speed { get; private set; }
     public MyTimer Timer = new();
     public bool Tacheble { get; set; } = true;
-    public int Damage { get; private set; } = 20;
+    public int Damage { get; private set; } = 1;
 
     public HeroUpdate(GameData gameData)
     {
@@ -23,7 +23,7 @@ public class HeroUpdate
         TextureHeight = HeroDraw.Texture.Height / 2;
         Bounds = new Rectangle((int)Position.X, (int)Position.Y, TextureWidth, TextureHeight);
         Speed = 300;
-        Healths = 15;
+        Healths = 9;
     }
 
     public void Update(GameData gameData)
